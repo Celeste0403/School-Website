@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #d8f8e4;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+}
+.title{
+    width: 75%;
+}
+.course{    
+    transition-delay: 2s;
+}
+.course .first-course{
+
+    background: url('/sources/images/tourism.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.course .second-course{
+
+    background: url('/sources/images/physical\ therapy.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.course .third-course{
+
+    background: url('/sources/images/foreign\ langugage.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.course div .text{
+    margin-top: 240px; 
+       
+    transition-delay: 0.5s;   
+}
+.course div .text p{
+    visibility: unset;
+}
+.course div .text:hover{
+    height: 100px;
+    background: #144754;
+    color: white;
+}
+.bg-custom{
+    background: #144754;
+}
+h2, h4{
+    
+  position: relative;
+  animation-name: animate;
+  animation-duration: 2s;
+  animation-delay: -1s;
+}
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        font-size: 12px;
+    }
+}
+
+@keyframes animate {
+	100% {
+		opacity: 0;
+		transform: scale(4);
+		visibility: hidden;
+	}
+}
+
+@keyframes moveup{
+
+}
